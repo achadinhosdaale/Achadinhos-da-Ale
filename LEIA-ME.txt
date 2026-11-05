@@ -1,0 +1,23 @@
+ACHADINHOS DA ALÊ — KIT INICIAL GRATUITO
+
+O QUE VEM NESTE KIT
+- index.html: vitrine responsiva com busca, categorias, ordenação e cadastro de produtos.
+- apps_script.gs: código opcional para gravar ofertas em uma Planilha Google.
+
+IMPORTANTE SOBRE O MODO HÍBRIDO
+O cadastro que vem ativo inicialmente guarda os produtos no navegador usado para cadastrar (localStorage). Isso é ótimo para testar, mas não compartilha automaticamente os produtos com os visitantes.
+Para que as ofertas sejam compartilhadas entre dispositivos, conecte uma Google Sheet e publique o Apps Script como Web App. O código Apps Script deste kit já grava novas ofertas na planilha; a leitura pública da planilha pode ser conectada na próxima etapa. Não publique dados privados na planilha.
+
+PUBLICAR GRATUITAMENTE (vitrine)
+1. Crie uma conta gratuita no GitHub.
+2. Crie um repositório público chamado achadinhos-da-ale.
+3. Envie o arquivo index.html para a raiz do repositório.
+4. Em Settings > Pages, escolha Deploy from a branch, selecione main e /(root), e salve.
+5. O GitHub mostrará o endereço público do site. A primeira publicação pode levar alguns minutos.
+
+TESTAR
+Abra index.html no computador ou celular. Em Área de cadastro, adicione nome, URL pública da foto, preço e link de afiliada. Use links completos começando com https://.
+Use apenas fotos e links que você tem autorização para divulgar.
+
+PERSONALIZAÇÃO
+As cores e o nome estão no CSS e no cabeçalho do index.html. O site já está preparado para celular.
